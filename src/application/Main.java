@@ -36,7 +36,7 @@ public class Main {
 
                 System.out.println("Exibindo Funcionário cadastrado:");
 
-                 System.out.println("Funcionário(a): " + func.getNome() + ", Sexo:  " + func.getSexo() + ",Nível:  " + func.getNivel()+ ", Salário: R$" + func.getSalario());
+                 System.out.println(func);
                  System.out.println();
                  System.out.println();
 
@@ -45,8 +45,7 @@ public class Main {
                  char respostaAtualizacao = scanner.next().charAt(0);
                   System.out.println();
                   System.out.println();
-        System.out.println("Funcionário(a): " + func.getNome() + ", Sexo:  " + func.getSexo() + ",Nível:  " + func.getNivel()+ ", Salário: R$" + func.getSalario());
-
+                  System.out.println(func);
                         if (respostaAtualizacao =='S'|| respostaAtualizacao == 's') {
                             System.out.println();
                             System.out.println();
@@ -71,7 +70,7 @@ public class Main {
                                     System.out.println();
                                     System.out.println();
                                     System.out.println("Dados atualizados:");
-                                    System.out.println("Funcionário(a): " + func.getNome() + ", Sexo:  " + func.getSexo() + ",Nível:  " + func.getNivel()+ ", Salário: R$" + func.getSalario());
+                                    System.out.println(func);
                                     System.out.println("Finalizando o sistema. Obrigada por utilizar nossos serviços!");
                                     break;
 
@@ -89,7 +88,7 @@ public class Main {
                                     System.out.println();
                                     System.out.println();
                                     System.out.println("Dados atualizados:");
-                                    System.out.println("Funcionário(a): " + func.getNome() + ", Sexo:  " + func.getSexo() + ",Nível:  " + func.getNivel()+ ", Salário: R$" + func.getSalario());
+                                    System.out.println(func);
                                     System.out.println("Finalizando o sistema. Obrigada por utilizar nossos serviços!");
                                  break;
                                   default:

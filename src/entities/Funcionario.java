@@ -19,7 +19,6 @@ public class Funcionario {
 
     }
 
-
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -28,24 +27,11 @@ public class Funcionario {
         this.sexo = sexo;
     }
 
-    public String getNome() {
-        return nome;
-    }
-    public char getSexo(){
-        return sexo;
-    }
-
-    public String getNivel() {
-        return nivel;
-    }
 
     public void setNivel(String nivel) {
         this.nivel = nivel;
     }
 
-    public double getSalario() {
-        return salario;
-    }
 
     public void setSalario(double salario) {
         this.salario = salario;
