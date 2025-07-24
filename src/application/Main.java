@@ -91,12 +91,20 @@ public class Main {
                                     System.out.println(func);
                                     System.out.println("Finalizando o sistema. Obrigada por utilizar nossos serviços!");
                                  break;
-                                  default:
-                                            String atencao = """
-                                                    Opção Inválida. 
-                                                    Selecione uma opção ou entre com "0" o programa .
+
+                                 default:
+                                     String atencao = """
+                                                    Opção Inválida.
+                                                    Selecione uma opção ou entre com "0" para encerrar o programa .
                                                     """;
-                                            System.out.println(atencao);
+                                         System.out.println(atencao);
+
+                                     }
+
+                                     while ( opcaoAtualizacao != 0 && opcaoAtualizacao != 1 && opcaoAtualizacao != 2) {
+
+                                         System.out.println(opcoes);
+                                         opcaoAtualizacao = scanner.nextInt();
 
                                     }
 
