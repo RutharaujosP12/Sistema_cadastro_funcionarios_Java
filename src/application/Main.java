@@ -53,7 +53,7 @@ public class Main {
 
                             String opcoes = """
                                     Dados permitidos para atualização:
-                                    1. Salário - valor de recebimento baseado no nível/cargo 
+                                    1. Salário - valor de recebimento baseado no nível/cargo
                                     2. Nível e Salário;
                                     """;
                             System.out.println(opcoes);
@@ -101,16 +101,15 @@ public class Main {
 
                                      }
 
-                                     while ( opcaoAtualizacao != 0 && opcaoAtualizacao != 1 && opcaoAtualizacao != 2) {
-
+                                     do {
                                          System.out.println(opcoes);
                                          opcaoAtualizacao = scanner.nextInt();
-
+                                     }
+                                         while (opcaoAtualizacao!=0);
                                          if (opcaoAtualizacao ==0) {
                                              System.out.println("Finalizando o sistema. Obrigada por utilizar nossos serviços!");
-                                         }
 
-                                    }
+                                         }
 
                         }  else {
                         System.out.println("Finalizando o sistema. Obrigada por utilizar nossos serviços!");
