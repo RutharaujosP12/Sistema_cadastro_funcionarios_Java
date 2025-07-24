@@ -106,6 +106,10 @@ public class Main {
                                          System.out.println(opcoes);
                                          opcaoAtualizacao = scanner.nextInt();
 
+                                         if (opcaoAtualizacao ==0) {
+                                             System.out.println("Finalizando o sistema. Obrigada por utilizar nossos serviços!");
+                                         }
+
                                     }
 
                         }  else {
