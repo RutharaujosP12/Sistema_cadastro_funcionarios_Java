@@ -7,18 +7,6 @@ public class Funcionario {
     private String nivel;
     private double salario;
 
-    //criação de construtor para o objeto do tipo funcionário receber dados
-    public Funcionario(String nome, char sexo,String nivel, double salario ) {
-        this.nome = nome;
-        this.sexo = sexo;
-        this.nivel = nivel;
-        this.salario= salario;
-    }
-    //construtor padrão vazio.
-    public Funcionario() {
-
-    }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -31,7 +19,6 @@ public class Funcionario {
     public void setNivel(String nivel) {
         this.nivel = nivel;
     }
-
 
     public void setSalario(double salario) {
         this.salario = salario;
