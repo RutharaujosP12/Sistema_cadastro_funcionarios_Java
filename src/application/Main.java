@@ -3,20 +3,24 @@ package application;
 
 import entities.Funcionario;
 
+import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-
-
                 Locale.setDefault(Locale.US);
                 Scanner scanner = new Scanner(System.in);
 
                 Funcionario func = new Funcionario();
 
-                System.out.println("Bem vindo ao sistema de cadastro de funcionários:");
+                String msgIniciar = """
+                "Bem vindo ao sistema de cadastro de funcionários:"
+                Para iniciar o cadastro, iremos criar um ID único.
+                """;
+                System.out.println(msgIniciar);
+
                 System.out.print("Entre com o nome do funcionário:");
                 String nome = scanner.nextLine();
                 func.setNome(nome);
@@ -79,7 +83,8 @@ public class Main {
                                     System.out.println("Entre com o novo nível:");
                                     scanner.nextLine();
                                     String novoNivel = scanner.nextLine();
-                                    //chamada de métodos setter para alteração de dados de um atributo
+
+                                    //chamada de metodo set para alteração de dados de um atributo
                                     func.setNivel(novoNivel);
                                     System.out.println("Entre com o novo salário:");
                                     novoSalario = scanner.nextDouble();
