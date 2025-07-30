@@ -2,8 +2,6 @@ package application;
 
 
 import entities.Funcionario;
-
-import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 
